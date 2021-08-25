@@ -36,10 +36,10 @@ mongoose.connect(MONGO_DB_CONNECT, {useNewUrlParser: true, useUnifiedTopology: t
                     console.log('There are ' + res + ' cats in the DB');
 
                     getCatsApiData().then( (json) => {
-                        //console.log(json.data);
 
                         saveCatsToDb(json.data).then( (res) => {
                             console.log(res);
+                            console.log('All done');
                         });
                     });
                 });

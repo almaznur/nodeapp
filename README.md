@@ -5,7 +5,7 @@ This is the small Node.js app that
 - calls into a public API https://catfact.ninja/
 - gets the data into JSON format
 - saves that data to MongoDb
-- provides an endpoint /cats to selects all available records in the db
+- provides an endpoint /cats to selects all available records in the db (usage http://localhost:3000/cats)
 
 ---
 ## Requirements
@@ -47,3 +47,6 @@ You will need:
 ## Running the project
 
     $ npm start
+
+the server will start, check the number of existing records in db, call for the cats API and save the result to database
+the endpoint http://localhost:3000/cats can be called to see the actual data in db
