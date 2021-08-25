@@ -1,3 +1,9 @@
+# Engineering-Test-Notebook
+
+The notebook can be ran by checking out the file and using the followinbg command in command line (Windows)
+
+> jupyter notebook Traverse_folder.ipynb
+
 # Simple Node app
 
 This is the small Node.js app that 
